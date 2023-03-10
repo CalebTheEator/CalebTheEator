@@ -1,7 +1,7 @@
 
 <html>
 
-    <body onLoad = "(>
+    <body>
         <div id = "title">
             <h1><a href = "Home.html">Caleb The Eator.</a></h1>
             <hr/>
