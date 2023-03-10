@@ -5,6 +5,9 @@
         <title>The Eator</title>
         <link rel = "stylesheet" type="text/css" href= "../../StyleSheets/newEra.css"/>
         <link rel = "stylesheet" type="text/css" href= "../../StyleSheets/fonts.css"/>
+        <script>
+            location.href = '(https://calebtheeator.github.io/Pages/Defaults/Home.html)';
+        </script>
         <style>
              #danger{
                 background-color:rgb(124, 22, 22);
@@ -16,7 +19,7 @@
         </style>
     </head>
 
-    <body>
+    <body onLoad = "(>
         <div id = "title">
             <h1><a href = "Home.html">Caleb The Eator.</a></h1>
             <hr/>
