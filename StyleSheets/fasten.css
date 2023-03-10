@@ -5,6 +5,8 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
     font-family:husky, sans-serif;
+    backdrop-filter: contrast(50%);
+    backdrop-filter: saturate(150%);
     
 }
 

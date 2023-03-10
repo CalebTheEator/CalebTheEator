@@ -221,3 +221,47 @@ hr.curvedown {
       border-radius: 5px;
 
   }
+
+
+
+
+  /*this code is for the about me page*/
+
+  .content{
+    height:700px;
+    width:900px;
+    background-image: url(../Pictures/calebtranslesshair.png);
+    background-size: 900px,900px;
+    transform: scaleY(-1);
+    z-index:3;
+    float:left;
+    margin-top:-60px;
+    margin-left:-54px;
+    filter:brightness(60%)
+}
+#texts{
+    clear:right;
+    background-color: rgba(169, 169, 169, 0.4);
+    box-shadow: 0px 8px 24px 1px rgba(0, 0, 0, 0.28);
+}
+#indent{
+    margin-left:40px
+}
+#links{
+  font-family: something, sans-serif;
+  font-size:45px;
+  color:#070d0b;
+  text-align: center;
+  text-transform:capitalize;
+  z-index: 2;
+}
+#links a{
+color:#070d0b;
+  background-color: rgba(169, 169, 169, 0.4);
+  box-shadow: 0px 8px 24px 1px rgba(0, 0, 0, 0.28);
+  margin-right:40px;
+}
+
+#links a:hover{
+color:rgb(24, 142, 100);
+}

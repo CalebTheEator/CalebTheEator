@@ -118,8 +118,6 @@ hr.curvedown {
 
   #danger{
     background-color:rgb(124, 22, 22);
-    width:800px;
-    height:1000px;
     margin:auto;
     font-family:help, monospace;
     }
@@ -154,5 +152,5 @@ hr.curvedown {
     #seperator{
         border: 100px solid rgb(204, 73, 73);
         border-radius: 5px;
-        border-image:url(../../Pictures/Untitled.png) 30 repeat;
+        border-image:url(../Pictures/Untitled.png) 30 repeat;
     }
