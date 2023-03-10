@@ -1,0 +1,99 @@
+@font-face {
+    font-family: Help;
+    src: url(../Fonts/HelpMe.ttf);
+}
+@font-face {
+    font-family: chomsky;
+    src: url(../Fonts/Chomsky.otf);
+}
+@font-face {
+    font-family: Barbatrick;
+    src: url(../Fonts/Barbatrick.otf);
+}
+
+@font-face {
+    font-family: Cole;
+    src: url(../Fonts/ColeCarreira.ttf);
+}
+
+@font-face {
+    font-family: Fava;
+    src: url(../Fonts/Fava-black.ttf);
+}
+
+@font-face {
+    font-family:HUSKY ;
+    src: url(../Fonts/Husky\ Stash.otf);
+}
+
+@font-face {
+    font-family:squeal ;
+    src: url(../Fonts/Squealer.otf);
+}
+
+@font-face {
+    font-family:squealembossed;
+    src: url(../Fonts/Squealer\ Embossed.otf);
+}
+
+
+
+
+body{
+    background-image: url("../Pictures/pentagonBacking.jpeg");
+    background-color: PINK;
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family:fava, sans-serif;
+    
+}
+
+h1{
+    font-family: fava, sans-serif;
+    color:darkorchid;
+}
+
+#title{
+    text-align:center;
+    font-size: 45px;
+    letter-spacing: 14px;
+    color:black;
+}
+
+#title a{
+    color:rgb(133, 0, 199);
+    text-decoration: none;
+}
+
+.links{
+    font-family: fava, sans-serif;
+    font-size:50px;
+    color:rgb(157, 2, 196);
+    text-align: center;
+    text-transform:capitalize;
+    
+}
+.links a{
+    color:rgb(159, 0, 181);
+    background-color: rgba(169, 169, 169, 0.4);
+    box-shadow: 0px 8px 24px 1px rgba(0, 0, 0, 0.28);
+    margin-right:40px;
+}
+
+hr{
+    border: 10px solid black;
+    border-radius: 5px;
+    border-image:url(../Pictures/pentagonBacking.jpeg) 30% stretch
+}
+h3{
+    color:rgb(151, 31, 95);
+    padding-top:15px;
+    font-size:65px;
+}
+
+h4{
+    color:rgb(151, 31, 95);
+    padding-top:5px;
+    font-size:45px;
+}

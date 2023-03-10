@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>The Eator</title>
+        <link rel = "stylesheet" type="text/css" href= "../../StyleSheets/newEra.css"/>
+        <link rel = "stylesheet" type="text/css" href= "../../StyleSheets/fonts.css"/>
+        <style>
+            #texts{
+                clear:right;
+                background-color: rgba(169, 169, 169, 0.4);
+                box-shadow: 0px 8px 24px 1px rgba(0, 0, 0, 0.28);
+            }
+            #indent{
+                margin-left:22%
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id = "title">
+            <h1><a href = "Home.html">Caleb The Eator.</a></h1>
+            <hr/>
+        </div>
+
+        <div class= "links">
+            <a href ="About.html">about caleb</a>
+            <a href = "Tours.html">tours</a>
+            <a href = "Music.html">music</a>
+            <a href = "Merch.html">store</a>
+            <a href = "theTeam.html">meet the team</a>
+        </div>
+        <hr/>
+        <div id = info>
+            <br/>
+            <div id = "texts">
+                <div id = indent>
+                    <br/>
+                    <form id = "form" onsubmit="return false" autocomplete="off">
+                        <h1>Please insert your credit card number</h1>
+                        <input type = "text" id = "credit" size = "25" maxlength = 16 style = "font-size:50px; background-color: rgb(249, 227, 199);" onKeyPress="merch(event, this)">
+                    </form>
+                    <br/>
+                </div>
+                <div id = "merchen" style = "display: none; margin-left: 0%">
+                    <iframe style="border-radius:2000px;border-color: aquamarine;" src="https://embed.creator-spring.com/widget?slug=my-store-dbc6c3&per=7&bg=461257&txtcolor=ffffff&currency=&page=1" title="Food Bytes Drop 1 Merch store powered by Spring" width="100%" height="650px" data-reactroot="" style="z-index:8888;"></iframe>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+
+
+        function merch(e, textarea){
+        var code = (e.keyCode ? e.keyCode : e.which);
+        if(code == 13) { //Enter keycode
+            document.getElementById("form").style.display="none";
+            document.getElementById("merchen").style.display="block";
+        }
+        }
+
+    </script>
+</html>

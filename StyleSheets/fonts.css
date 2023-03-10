@@ -1,0 +1,67 @@
+@font-face {
+    font-family: Help;
+    src: url(../Fonts/HelpMe.ttf);
+}
+@font-face {
+    font-family: chomsky;
+    src: url(../Fonts/Chomsky.otf);
+}
+@font-face {
+    font-family: Barbatrick;
+    src: url(../Fonts/Barbatrick.otf);
+}
+
+@font-face {
+    font-family: Cole;
+    src: url(../Fonts/ColeCarreira.ttf);
+}
+
+@font-face {
+    font-family: Fava;
+    src: url(../Fonts/Fava-black.ttf);
+}
+
+@font-face {
+    font-family:HUSKY ;
+    src: url(../Fonts/Husky\ Stash.otf);
+}
+
+@font-face {
+    font-family:squeal ;
+    src: url(../Fonts/Squealer.otf);
+}
+
+@font-face {
+    font-family:squealembossed;
+    src: url(../Fonts/Squealer\ Embossed.otf);
+}
+
+@font-face {
+    font-family: WhiteMilk;
+    src: url(../Fonts/newera/White_Milk.otf);
+}
+
+@font-face {
+    font-family: blueOcean;
+    src: url(../Fonts/newera/BLUE_OCEAN.ttf);
+}
+
+@font-face {
+    font-family: Something;
+    src: url(../Fonts/newera/Something.otf);
+}
+
+@font-face {
+    font-family: Valentine;
+    src: url(../Fonts/newera/Valentine_Cute.ttf);
+}
+
+
+
+
+
+
+#fonts{
+    font-size:50px;
+    color:black;
+}

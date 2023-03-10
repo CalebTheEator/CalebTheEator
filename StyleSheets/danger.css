@@ -1,0 +1,158 @@
+
+h3{
+    color:rgb(0, 0, 0);
+    padding-top:15px;
+    font-size:65px;
+    font-family: help, sans-serif;
+}
+
+h4{
+    color:rgb(0, 0, 0);
+    padding-top:5px;
+    font-size:45px;
+    font-family: help,sans-serif;
+}
+body{
+    background-color: rgb(199, 3, 3);
+    background-image: url(../Pictures/sparkleimproved3.png), url(../Pictures/lessStatic.png);
+    background-attachment:scroll, fixed;
+    background-repeat: repeat, no-repeat;
+    background-position: -20px,0px;
+    
+}
+
+h1{
+    font-family: Help, sans-serif;
+}
+
+#title{
+    text-align:center;
+    font-size: 45px;
+    letter-spacing: 14px;
+    color:black;
+    z-index: 1;
+}
+
+#title a{
+    color:black;
+    text-decoration: none;
+}
+
+.links{
+    font-family: squeal,chomsky, sans-serif;
+    font-size:50px;
+    color:black;
+    text-align: center;
+    text-transform:capitalize;
+    z-index: 2;
+}
+.links a{
+    color:rgb(8, 7, 7);
+    background-color: rgba(169, 169, 169, 0.4);
+    box-shadow: 0px 8px 24px 1px rgba(0, 0, 0, 0.28);
+    margin-right:40px;
+}
+
+hr{
+    border: 10px solid black;
+    border-radius: 5px;
+    border-image:url(../Pictures/Untitled.png) 30 stretch
+}
+
+.backing{
+    text-align:center;
+    color:black;
+}
+
+h1 .backing{
+    background-color: rgba(169, 169, 169, 0.4);
+    box-shadow: 0px 8px 24px 1px rgba(0, 0, 0, 0.28);
+}
+
+
+hr.curvedown { 
+    height: 30px; 
+    border-style: solid; 
+    border-color: #8c8b8b; 
+    border-width: 1px 0 0 0; 
+    border-radius: 20px; 
+    border-image: none;
+  } 
+  hr.curvedown:before { 
+    display: block; 
+    content: ""; 
+    height: 30px; 
+    margin-top: -31px; 
+    border-style: solid; 
+    border-color: #8c8b8b; 
+    border-width: 0 0 1px 0; 
+    border-radius: 20px; 
+  }
+  
+  hr.curveup { 
+    height: 30px; 
+    border-style: solid; 
+    border-color: #8c8b8b; 
+    border-width: 1px 0 0 0; 
+    border-radius: 20px; 
+    border-image: none;
+  } 
+  hr.curveup:before { 
+    display: block; 
+    content: ""; 
+    height: -30px; 
+    margin-top: -31px; 
+    border-style: solid; 
+    border-color: #8c8b8b; 
+    border-width: 0 0 1px 0; 
+    border-radius: 20px; 
+  }
+
+  #guy{
+    margin-left:-10px; float:left; filter: saturate(2);
+  }
+
+
+
+  /*Below is code specifically for MUSCI page*/
+
+  #danger{
+    background-color:rgb(124, 22, 22);
+    width:800px;
+    height:1000px;
+    margin:auto;
+    font-family:help, monospace;
+    }
+    h3{
+        font-size: 35.5px;
+        text-align:center;
+    }
+
+    #pentagon{
+        background-color:rgb(148, 88, 175);
+        width:400px;
+        height:550px;
+        margin-left:250px;
+        font-family:fava, monospace;
+        float:left;
+    }
+
+    #fasten{
+        background-color:rgb(181, 160, 70);
+        width:400px;
+        height:550px;
+        margin-right:250px;
+        font-family:husky, monospace;
+        float:right;
+    }
+    #normal hr{
+        border: 40px, solid, black;
+        border-radius: 5px;
+
+    }
+
+    #seperator{
+        border: 100px solid rgb(204, 73, 73);
+        border-radius: 5px;
+        border-image:url(../../Pictures/Untitled.png) 30 repeat;
+    }

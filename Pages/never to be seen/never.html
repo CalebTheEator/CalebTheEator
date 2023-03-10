@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>The Eator</title>
+        <link rel = "stylesheet" type="text/css" href= "../../StyleSheets/BasicLook.css"/>
+        <link rel = "stylesheet" type="text/css" href= "../../StyleSheets/slideshow.css"/>
+
+        <style>
+            #danger{
+                background-color:rgb(124, 22, 22);
+                width:800px;
+                height:1000px;
+                margin:auto;
+                font-family:help, monospace;
+            }
+            h3{
+                font-size: 65px;
+                text-align:center;
+            }
+
+            #pentagon{
+                background-color:rgb(116, 55, 145);
+                width:800px;
+                height:1000px;
+                margin:auto;
+                font-family:fava, monospace;
+            }
+
+            #fasten{
+                background-color:rgb(181, 160, 70);
+                width:800px;
+                height:1000px;
+                margin:auto;
+                font-family:husky, monospace;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id = "title">
+            <h1><a href = "Home.html">Caleb The Eator.</a></h1>
+            <hr/>
+        </div>
+
+        <div class= "links">
+            <a href ="About.html">about caleb</a>
+            <a href = "Tours.html">tours</a>
+            <a href = "Music.html">music</a>
+            <a href = "Merch.html">store</a>
+            <a href = "theTeam.html">meet the team</a>
+        </div>
+        <br/><br/><br/><br/><br/><br/>
+        
+		<!-- Slideshow container -->
+    <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+                <!-- Next and previous buttons -->
+            
+            <br>
+            
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        <div class="mySlides fade">
+            <div id = "danger">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <h3 style = "padding-top:15px"><span style = "color:green">"danger!"</span> Out now!!</h3>
+                <img src="../../Pictures/danger!Tracklist.jpeg" alt = "&ldquodanger!&rdquo tracklist!" style = "display: flex; margin:auto; width: 700px;" onclick="showpentagon()"/>
+                
+            </div>
+        </div>
+    
+        <div class="mySlides fade">
+            <div id = "pentagon">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <h3 style = "padding-top:15px"><span style = "color:rgb(182, 34, 157)">"The Pentagon"</span> (May of 2022)</h3>
+                <img src="../../Pictures/pentagontracklist.jpg" alt = "&ldquodanger!&rdquo tracklist!" style = "display: flex; margin:auto; width: 700px;" onclick="showdanger()"/>
+            </div>
+        </div>
+    
+        <div class="mySlides fade">
+            <div id = "fasten" class = "albums">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <h3 style = "padding-top:15px"><span style = "color:rgb(230, 194, 33)">"Fasten Lap Belt"</span> (2022)</h3>
+                <img src="../../Pictures/FastenLapBeltTracklist.jpg" alt = "&ldquodanger!&rdquo tracklist!" style = "display: flex; margin:auto; width: 700px;"/>
+            </div>
+        </div>
+
+    </div>
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    <br>
+    
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+
+                <!--THIS IS FOR THE FIRST SLIDES-->
+            <script>
+                let slideIndex = 1;
+            showSlides(slideIndex);
+
+            // Next/previous controls
+            function plusSlides(n) {
+            showSlides(slideIndex += n);
+            }
+
+            // Thumbnail image controls
+            function currentSlide(n) {
+            showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+            }
+            </script>
+
+
+
+    </body>
