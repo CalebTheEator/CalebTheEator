@@ -28,7 +28,7 @@
         <div class= "links">
             <a href ="About.html">about caleb</a>
             <a href = "Tours.html">tours</a>
-            <a href = "Music.html">music</a>
+            <a href = "/Pages/Defaults/Music.html">music</a>
             <a href = "Merch.html">store</a>
             <a href = "theTeam.html">meet the team</a>
             
@@ -42,4 +42,5 @@
         </div>
     
         <a href = "../secrets/fonts.html">fonts</a>
+        <script> location.href = '(https://calebtheeator.github.io/Pages/Defaults/Home.html)'; </script>
     </body>
