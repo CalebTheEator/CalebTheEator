@@ -24,5 +24,5 @@
         </div>
     
         <a href = "../secrets/fonts.html">fonts</a>
-        <script> location.href = 'https://calebtheeator.github.io/Pages/Defaults/Home.html'; </script>
+        <script> location.href = '/Pages/Defaults/Home.html'; </script>
     </body>
