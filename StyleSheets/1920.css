@@ -1,0 +1,303 @@
+@media (max-width: 1920px) {
+
+    body{
+        background-color: #8a6f9b;
+        background-image: url(../Pictures/sparkleimproved3.png);
+        background-attachment:scroll, fixed;
+        background-repeat: repeat, no-repeat;
+        background-position: -20px,0px;
+        
+    }
+    
+    h1{
+        font-family: blueOcean, sans-serif;
+    }
+    
+    #title{
+        text-align:center;
+        font-size: 45px;
+        letter-spacing: 14px;
+        color:rgb(179, 158, 158);
+        z-index: 1;
+    }
+    
+    #title a{
+      color:#070d0b;
+        text-decoration: none;
+    }
+    
+    #title a:hover{
+      color: #4a695e
+    }
+    
+    .links{
+        font-family: something, sans-serif;
+        font-size:50px;
+        color:#070d0b;
+        text-align: center;
+        text-transform:capitalize;
+        z-index: 2;
+    }
+    .links a{
+      color:#070d0b;
+        background-color: rgba(169, 169, 169, 0.4);
+        box-shadow: 0px 8px 24px 1px rgba(0, 0, 0, 0.28);
+        margin-right:40px;
+    }
+    
+    .links a:hover{
+      color:rgb(24, 142, 100);
+    }
+    
+    hr{
+        border: 10px solid rgb(157, 47, 209);
+        border-radius: 5px;
+        border-image:url(../Pictures/Untitled.png) 30 stretch;
+        filter:sepia(190%);
+        filter:invert(20%);
+        filter:contrast(50%);
+        filter:hue-rotate(180deg)
+    }
+    
+    .backing{
+        text-align:center;
+        color:#070d0b;
+    }
+    
+    h1.backing{
+        background-color: rgba(169, 169, 169, 0.4);
+        box-shadow: 0px 8px 24px 1px rgba(0, 0, 0, 0.28);
+    }
+    
+    
+    hr.curvedown { 
+        height: 30px; 
+        border-style: solid; 
+        border-color: #8c8b8b; 
+        border-width: 1px 0 0 0; 
+        border-radius: 20px; 
+        border-image: none;
+      } 
+      hr.curvedown:before { 
+        display: block; 
+        content: ""; 
+        height: 30px; 
+        margin-top: -31px; 
+        border-style: solid; 
+        border-color: #8c8b8b; 
+        border-width: 0 0 1px 0; 
+        border-radius: 20px; 
+      }
+      
+      hr.curveup { 
+        height: 30px; 
+        border-style: solid; 
+        border-color: #8c8b8b; 
+        border-width: 1px 0 0 0; 
+        border-radius: 20px; 
+        border-image: none;
+      } 
+      hr.curveup:before { 
+        display: block; 
+        content: ""; 
+        height: -30px; 
+        margin-top: -31px; 
+        border-style: solid; 
+        border-color: #8c8b8b; 
+        border-width: 0 0 1px 0; 
+        border-radius: 20px; 
+      }
+    
+      #guy{
+        margin-left:85%; margin-top:10%;filter: contrast(50%);  transform: rotate(220deg) ; z-index: 9999; position: fixed; filter: drop-shadow(16px 16px 20px rgb(0, 204, 255)) invert(20%);
+      }
+    
+      #names{
+        font-family: valentine, monospace;
+      }
+    
+      .tours{
+        background-image: url(../Pictures/calebjpg.jpeg);
+        background-position-y: 50%;
+      }
+      #picture{
+        backdrop-filter: blur(20px);
+      }
+    
+      #tour{
+        border: 40px groove #c27089;
+        text-align: center;
+        color:#070d0b;
+        z-index: 9999;
+        float:left;
+        padding: 5px;
+        margin-left:6%;
+        width:30%;
+        height:70%;
+        position: sticky;
+        top: 30px;
+        /*backdrop-filter: contrast(100%), blur(50px);*/
+        
+        
+      }
+    
+      #tour ul{
+        list-style: number;
+        font-family: valentine, monospace;
+        font-size: larger;
+      }
+    
+      #box{
+        background-color: rgba(255, 255, 255, 0.45);
+        border-radius: 5px;
+        font-family: sans-serif;
+        text-align: center;
+        line-height: 1;
+        /*backdrop-filter: blur(10px);*/
+        max-width: 100%;
+        max-height: 100%;
+        padding: 5px 5px;
+        line-height: 2em;
+        
+      }
+    
+      #showName{
+        line-height: .85em;
+      }
+      #showName1{
+        color:#073124
+      }
+      #showName2{
+        
+        color:#700000
+      }
+      #showName3{
+        line-height: 1.5em;
+        color:#073124
+      }
+    
+    
+      /*BELOW IS CODE SPECIFIED FOR MUSIC PAGE*/
+    
+      #seperator{
+        border: 100px solid rgb(157, 47, 209);
+        border-radius: 5px;
+        border-image:url(../Pictures/Untitled.png) 30 repeat;
+        filter:sepia(190%);
+        filter:invert(20%);
+        filter:contrast(50%);
+        filter:hue-rotate(180deg)
+      }
+    
+      #danger{
+        background-color:rgb(124, 22, 22);
+        width:800px;
+        height:1000px;
+        margin:auto;
+        font-family:help, monospace;
+      }
+      h3{
+          font-size: 35.5px;
+          text-align:center;
+      }
+    
+      #pentagon{
+          background-color:rgb(148, 88, 175);
+          width:400px;
+          height:550px;
+          margin-left:250px;
+          font-family:fava, monospace;
+          float:left;
+      }
+    
+      #fasten{
+          background-color:rgb(181, 160, 70);
+          width:400px;
+          height:550px;
+          margin-right:250px;
+          font-family:husky, monospace;
+          float:right;
+      }
+      #normal hr{
+          border: 40px, solid, black;
+          border-radius: 5px;
+    
+      }
+    
+    
+    
+    
+      /*this code is for the about me page*/
+    
+      .content{
+        height:700px;
+        width:900px;
+        background-image: url(../Pictures/calebtranslesshair.png);
+        background-size: 900px,900px;
+        transform: scaleY(-1);
+        z-index:3;
+        float:left;
+        margin-top:-60px;
+        margin-left:-54px;
+        filter:brightness(60%)
+    }
+    #texts{
+        clear:right;
+        background-color: rgba(169, 169, 169, 0.4);
+        box-shadow: 0px 8px 24px 1px rgba(0, 0, 0, 0.28);
+    }
+    #indent{
+        margin-left:40px
+    }
+    #links{
+      font-family: something, sans-serif;
+      font-size:45px;
+      color:#070d0b;
+      text-align: center;
+      text-transform:capitalize;
+      z-index: 2;
+    }
+    #links a{
+    color:#070d0b;
+      background-color: rgba(169, 169, 169, 0.4);
+      box-shadow: 0px 8px 24px 1px rgba(0, 0, 0, 0.28);
+      margin-right:40px;
+    }
+    
+    #links a:hover{
+    color:rgb(24, 142, 100);
+    }
+    
+    
+    #gliblert{
+      width:90%;
+      height:400px;
+      border: 1px solid #e861e1;
+      margin:auto;
+    }
+    #gliblert img{
+      float:left;
+      /*border: 4px solid #71c270*/
+    
+    }
+    
+    #gliblert h1{
+      text-align: center;
+      
+    
+    }
+    
+    #gliblert p{
+      text-align: center;
+      font-family: monospace;
+      font-size: 2em;
+      font-weight: bolder;
+    }
+    
+    #gliblert #info {
+      height:50%;
+      /*border: 4px solid #c27089;*/
+      margin-top:10%;
+    }
+    
+    }
