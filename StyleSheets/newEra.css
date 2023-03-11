@@ -89,6 +89,8 @@ hr.curvedown {
     z-index: 9999;
     position: fixed;
     filter: drop-shadow(16px 16px 20px rgb(0, 204, 255)) invert(20%);
+    margin-left:85%;
+      margin-top:10%;
   }
 
   #names{

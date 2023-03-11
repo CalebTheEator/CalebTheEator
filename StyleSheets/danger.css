@@ -3,7 +3,6 @@ h3{
     color:rgb(0, 0, 0);
     padding-top:15px;
     font-size:65px;
-    font-family: help, sans-serif;
 }
 
 h4{
@@ -27,8 +26,6 @@ h1{
 
 #title{
     text-align:center;
-    font-size: 45px;
-    letter-spacing: 14px;
     color:black;
     z-index: 1;
 }
@@ -38,9 +35,14 @@ h1{
     text-decoration: none;
 }
 
+
+#title a:hover{
+    color: #4a695e
+  }
+
+
 .links{
     font-family: squeal,chomsky, sans-serif;
-    font-size:50px;
     color:black;
     text-align: center;
     text-transform:capitalize;
@@ -49,15 +51,11 @@ h1{
 .links a{
     color:rgb(8, 7, 7);
     background-color: rgba(169, 169, 169, 0.4);
-    box-shadow: 0px 8px 24px 1px rgba(0, 0, 0, 0.28);
-    margin-right:40px;
 }
+.links a:hover{
+    color:rgb(24, 142, 100);
+  }
 
-hr{
-    border: 10px solid black;
-    border-radius: 5px;
-    border-image:url(../Pictures/Untitled.png) 30 stretch
-}
 
 .backing{
     text-align:center;
@@ -66,52 +64,86 @@ hr{
 
 h1 .backing{
     background-color: rgba(169, 169, 169, 0.4);
-    box-shadow: 0px 8px 24px 1px rgba(0, 0, 0, 0.28);
 }
 
 
 hr.curvedown { 
-    height: 30px; 
     border-style: solid; 
     border-color: #8c8b8b; 
-    border-width: 1px 0 0 0; 
-    border-radius: 20px; 
     border-image: none;
   } 
   hr.curvedown:before { 
     display: block; 
     content: ""; 
-    height: 30px; 
-    margin-top: -31px; 
     border-style: solid; 
     border-color: #8c8b8b; 
-    border-width: 0 0 1px 0; 
-    border-radius: 20px; 
   }
   
   hr.curveup { 
-    height: 30px; 
     border-style: solid; 
     border-color: #8c8b8b; 
-    border-width: 1px 0 0 0; 
-    border-radius: 20px; 
     border-image: none;
   } 
   hr.curveup:before { 
     display: block; 
     content: ""; 
-    height: -30px; 
-    margin-top: -31px; 
     border-style: solid; 
     border-color: #8c8b8b; 
-    border-width: 0 0 1px 0; 
-    border-radius: 20px; 
   }
 
   #guy{
     margin-left:-10px; float:left; filter: saturate(2);
   }
 
+  #names{
+    font-family: squeal, monospace;
+  }
+
+  .tours{
+    background-image: url(../Pictures/calebjpg.jpeg);
+    background-position-y: 50%;
+  }
+  #picture{
+    backdrop-filter: blur(20px);
+  }
+
+  #tour{
+    text-align: center;
+    color:#070d0b;
+    z-index: 9999;
+    float:left;
+    position: sticky;
+    /*backdrop-filter: contrast(100%), blur(50px);*/
+    
+    
+  }
+
+  #tour ul{
+    list-style: number;
+    font-family: squeal, monospace;
+    font-size: 2em;
+  }
+
+  #box{
+    background-color: rgba(255, 255, 255, 0.45);
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 1;
+    /*backdrop-filter: blur(10px);*/
+    
+  }
+
+  #showName1{
+    color:#073124
+  }
+  #showName2{
+    
+    color:#700000
+  }
+  #showName3{
+    line-height: 1.5em;
+    color:#073124
+  }
 
 
   /*Below is code specifically for MUSCI page*/
@@ -122,35 +154,86 @@ hr.curvedown {
     font-family:help, monospace;
     }
     h3{
-        font-size: 35.5px;
         text-align:center;
     }
 
     #pentagon{
         background-color:rgb(148, 88, 175);
-        width:400px;
-        height:550px;
-        margin-left:250px;
         font-family:fava, monospace;
         float:left;
     }
 
     #fasten{
         background-color:rgb(181, 160, 70);
-        width:400px;
-        height:550px;
-        margin-right:250px;
         font-family:husky, monospace;
         float:right;
-    }
-    #normal hr{
-        border: 40px, solid, black;
-        border-radius: 5px;
-
     }
 
     #seperator{
         border: 100px solid rgb(204, 73, 73);
         border-radius: 5px;
         border-image:url(../Pictures/Untitled.png) 30 repeat;
+    }
+
+
+
+
+
+    /*about me page*/
+
+    .content{
+        background-image: url(../Pictures/calebtranslesshair.png);
+        transform: scaleY(-1);
+        z-index:3;
+        float:left;
+        filter:brightness(60%)
+    }
+    
+    #texts{
+        clear:right;
+        background-color: rgba(169, 169, 169, 0.4);
+        box-shadow: 0px 8px 24px 1px rgba(0, 0, 0, 0.28);
+    }
+    
+    #links{
+      font-family: squeal, sans-serif;
+      color:#070d0b;
+      text-align: center;
+      text-transform:capitalize;
+      z-index: 2;
+    }
+    #links a{
+    color:#070d0b;
+      background-color: rgba(169, 169, 169, 0.4);
+    }
+    
+    #links a:hover{
+    color:rgb(24, 142, 100);
+    }
+    
+    
+    #gliblert{
+      margin:auto;
+    }
+    #gliblert img{
+      float:left;
+      /*border: 4px solid #71c270*/
+    
+    }
+    
+    #gliblert h1{
+      text-align: center;
+      
+    
+    }
+    
+    #gliblert p{
+      text-align: center;
+      font-family: monospace;
+      font-weight: bolder;
+    }
+
+
+    #dangerImg{
+        display: flex; margin:auto; width: 700px; 
     }
