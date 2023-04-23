@@ -59,29 +59,6 @@ h1.backing{
 }
 
 
-hr.curvedown { 
-    border-style: solid; 
-    border-color: #8c8b8b; 
-    border-image: none;
-  } 
-  hr.curvedown:before { 
-    display: block; 
-    content: ""; 
-    border-style: solid; 
-    border-color: #8c8b8b; 
-  }
-  
-  hr.curveup { 
-    border-style: solid; 
-    border-color: #8c8b8b; 
-    border-image: none;
-  } 
-  hr.curveup:before { 
-    display: block; 
-    content: ""; 
-    border-style: solid; 
-    border-color: #8c8b8b; 
-  }
 
   #guy{
     filter: contrast(50%);
@@ -153,17 +130,24 @@ hr.curvedown {
     filter:hue-rotate(180deg)
   }
 
+  #display{
+    background-color:rgb(131, 76, 76);
+    margin:auto;
+    font-family:something, monospace;
+  }
   #danger{
     background-color:rgb(124, 22, 22);
     margin:auto;
     font-family:help, monospace;
   }
+
+
   h3{
       text-align:center;
   }
 
   #pentagon{
-      background-color:rgb(148, 88, 175);
+      background-color:rgb(170, 107, 170);
       font-family:fava, monospace;
       float:left;
   }
@@ -237,3 +221,15 @@ color:rgb(24, 142, 100);
   margin: auto;
   font-family:help, monospace;
 }
+
+
+
+
+/*This code is for the specified music page*/
+
+#new{
+  background-color:rgba(171, 154, 173, 0.541);
+  margin:auto;
+  font-family:something, monospace;
+}
+

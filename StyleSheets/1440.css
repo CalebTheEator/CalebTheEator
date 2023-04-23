@@ -100,9 +100,14 @@ hr.curvedown {
     border-image:url(../Pictures/Untitled.png) 30 repeat;
   }
 
-  #danger{
+  #display{
     width:800px;
     height:1000px;
+  }
+  #danger{
+    width:400px;
+    height:550px;
+    margin-left:250px;
   }
   h3{
       font-size: 35.5px;
