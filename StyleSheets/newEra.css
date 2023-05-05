@@ -131,8 +131,9 @@ h1.backing{
   }
 
   #display{
-    background-color:rgb(131, 76, 76);
+    background-color:rgb(197, 138, 194);
     margin:auto;
+    height:400px;
     font-family:something, monospace;
   }
   #danger{

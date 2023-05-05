@@ -4,9 +4,7 @@
     body{
         background-position: -20px,0px;
     }
-    html{
-      width : 990px;
-    }
+
     
     #title{
         font-size: 45px;
@@ -95,7 +93,7 @@
     
       #display{
         width:800px;
-        height:1000px;
+        height:1169px;
       }
       #danger{
         width:400px;
