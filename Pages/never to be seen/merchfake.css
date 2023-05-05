@@ -1,0 +1,18 @@
+.item{
+    width:210px;
+    height:283.3px;
+    border:2px red solid;
+    flex: 1 1 calc(33.3333% - 0.75rem);
+}
+.item a{
+    width:210px;
+    height:283.3px;
+    border:2px green solid;
+}
+.picture{
+    display: block;
+    max-width: 100%;
+    will-change: transform;
+    transition: transform 250ms ease-in 0s;
+    margin:auto;
+}
