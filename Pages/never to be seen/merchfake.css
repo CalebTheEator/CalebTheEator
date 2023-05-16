@@ -29,6 +29,8 @@
     max-width: 100%;
     margin:auto;
     border:2px green solid;
+    max-width: fit-content;
+    overflow: hidden;
 }
 .picture{
     display: block;
@@ -47,7 +49,7 @@
 }
 
 .picture:hover{
-    transform: scale(2);
+    transform: scale(1.25);
     
     
 }
