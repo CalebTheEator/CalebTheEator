@@ -12,7 +12,10 @@
     text-decoration: none;
     color:black;
     font-family: help, sans-serif;
-    font-size: auto;
+    font-size: 16px;
+}
+body{
+    background-blend-mode: soft-light;
 }
 .item a{
     width:100%;
@@ -24,6 +27,9 @@
     max-width: none;
     text-decoration: none;
 }
+.title{
+    margin: 5%;
+}
 .pictures{
     display: block;
     max-width: 100%;
@@ -32,6 +38,14 @@
     max-width: fit-content;
     overflow: hidden;
 }
+/* THIS MAKES THE WHOLE THING MASSIVE
+.pictures{
+    display: block;
+    max-width: 100%;
+    margin:auto;
+    border:2px green solid;
+}
+*/
 .picture{
     display: block;
     max-width: 100%;
