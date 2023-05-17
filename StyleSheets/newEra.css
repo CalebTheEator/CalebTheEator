@@ -3,7 +3,7 @@ body{
     background-image: url(../Pictures/sparkleimproved3.png);
     background-attachment:scroll, fixed;
     background-repeat: repeat, no-repeat;
-    
+    height:fit-content;
 }
 
 h1{
@@ -176,6 +176,12 @@ h1.backing{
     clear:right;
     background-color: rgba(169, 169, 169, 0.4);
     box-shadow: 0px 8px 24px 1px rgba(0, 0, 0, 0.28);
+    overflow-y: scroll;
+    scrollbar-color: red;
+    scroll-snap-align: 20%;
+    scroll-behavior:auto;
+    scroll-snap-type:proximity;
+    scroll-snap-stop: always;
 }
 
 #links{
