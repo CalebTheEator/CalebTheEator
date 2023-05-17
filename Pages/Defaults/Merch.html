@@ -109,19 +109,41 @@
                     </a>
                 </div>
                 <br/><br/><br/><br/>
+
+
+                <div class = "wrapper" style = "display: none;" id = "sec">
+                    <a href = "https://calebtheeator.creator-spring.com/listing/caleb-the-eator-shower-curtain" class = "item">
+                        <div id = "danger-shower-full-item" class = item>
+                            <div id = "danger-shower-picture" class = pictures>
+                                <img src = "../../Pictures/merch/shower.jpeg" id = "shower" alt = "Shower"  class = picture height = 198px;/>
+                            </div>
                             <h2 class = "title">Shower Curtain</h2>
                             <div class = "price">$39.67</div>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </body>
     <script>
 
-
+var secrets = document.getElementById("credit")
         function merch(e, textarea){
             var code = (e.keyCode ? e.keyCode : e.which);
             if(code == 13) { //Enter keycode
                 document.getElementById("form").style.display="none";
                 document.getElementById("merchen").style.display="flex";
+                
+                secret()
+            }
+        }
+
+        function secret(){
+            let guh = secrets.value
+            console.log(guh);
+            if (guh === "secret merch"){
+                document.getElementById("form").style.display="none";
+                document.getElementById("sec").style.display="flex";
             }
         }
 
