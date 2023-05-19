@@ -236,9 +236,12 @@ color:rgb(24, 142, 100);
   width:90%;
   height:400px;
   border: 1px solid #e861e1;
+  background-color: rgba(179, 52, 179, 0.502);
+  border-radius: 150px;
 }
 .peoples img{
   float:left;
+  border-radius: 100%;
 }
 .peoples h1, p{
   text-align: center;
@@ -255,6 +258,9 @@ color:rgb(24, 142, 100);
   margin-top:10%;
 }
 
+#info{
+  
+}
 
 
 
@@ -265,4 +271,5 @@ color:rgb(24, 142, 100);
   margin:auto;
   font-family:something, monospace;
 }
+
 
