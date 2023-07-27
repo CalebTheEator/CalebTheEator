@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+
+      <loc>http://calebtheeator.github.io/</loc>
+
+      <lastmod>2023-06-02</lastmod>
+
+      <priority>1.0</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://calebtheeator.github.io/Pages/Defaults/Home.html</loc>
+      
+       <lastmod>2023-05-07</lastmod>
+
+      <priority>1.0</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://calebtheeator.github.io/Pages/Defaults/About.html</loc>
+
+      <lastmod>2023-04-20</lastmod>
+
+   </url>
+
+   <url>
+
+      <loc>https://calebtheeator.github.io/Pages/Defaults/Tours.html</loc>
+
+      <lastmod>2023-04-20</lastmod>
+
+   </url>
+
+   <url>
+
+      <loc>https://calebtheeator.github.io/Pages/Defaults/Music.html</loc>
+
+      <lastmod>2023-05-07</lastmod>
+
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://calebtheeator.github.io/Pages/Defaults/Merch.html</loc>
+
+      <lastmod>2023-05-24</lastmod>
+
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://calebtheeator.github.io/Pages/Defaults/theTeam.html</loc>
+
+      <lastmod>2023-05-19</lastmod>
+
+   </url>
+
+   <url>
+
+      <loc>https://calebtheeator.github.io/Pages/Mixtapes/new.html</loc>
+
+      <lastmod>2023-05-07</lastmod>
+
+      <priority>0.1</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://calebtheeator.github.io/Pages/Mixtapes/danger.html</loc>
+
+      <lastmod>2023-05-24</lastmod>
+
+      <priority>0.1</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://calebtheeator.github.io/Pages/Mixtapes/pentagon.html</loc>
+
+      <lastmod>2023-04-19</lastmod>
+
+      <priority>0.1</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://calebtheeator.github.io/Pages/Mixtapes/fasten.html</loc>
+
+      <lastmod>2023-04-19</lastmod>
+
+      <priority>0.1</priority>
+
+   </url>
+
+   
+
+</urlset>
