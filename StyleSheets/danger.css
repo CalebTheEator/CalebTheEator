@@ -13,7 +13,7 @@ h4{
 }
 body{
     background-color: rgb(199, 3, 3);
-    background-image: url(../Pictures/sparkleimproved3.png), url(../Pictures/lessStatic.png);
+    background-image: url(../Pictures/sparkleimproved3.png), url(../Pictures/statics/lessStatic.png);
     background-attachment:scroll, fixed;
     background-repeat: repeat, no-repeat;
     background-position: -20px,0px;
@@ -172,7 +172,7 @@ hr.curvedown {
     #seperator{
         border: 100px solid rgb(204, 73, 73);
         border-radius: 5px;
-        border-image:url(../Pictures/Untitled.png) 30 repeat;
+        border-image:url(../Pictures/statics/Untitled.png) 30 repeat;
     }
 
 

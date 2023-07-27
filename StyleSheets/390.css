@@ -21,7 +21,7 @@
     hr{
         border: 10px solid rgb(157, 47, 209);
         border-radius: 5px;
-        border-image:url(../Pictures/Untitled.png) 30 stretch;
+        border-image:url(../Pictures/statics/Untitled.png) 30 stretch;
     }
     
     h1.backing{
@@ -88,7 +88,7 @@
       #seperator{
         border: 100px solid rgb(157, 47, 209);
         border-radius: 5px;
-        border-image:url(../Pictures/Untitled.png) 30 repeat;
+        border-image:url(../Pictures/statics/Untitled.png) 30 repeat;
       }
     
       #display{
