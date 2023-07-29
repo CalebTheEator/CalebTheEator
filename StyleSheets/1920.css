@@ -78,10 +78,22 @@
       height:900px;
     }
 
+
+    #bogart{
+      width:400px;
+      height:550px;
+      /* margin-left:250px; */
+    }
+    #bogart{
+      width:400px;
+      height:550px;
+      /* margin-left:250px; */
+    }
+
     #danger{
       width:400px;
       height:550px;
-      margin-left:250px;
+      /* margin-left:250px; */
     }
 
     h3{
@@ -91,13 +103,13 @@
     #pentagon{
         width:400px;
         height:550px;
-        margin-left:250px;
+        /* margin-left:250px; */
     }
   
     #fasten{
         width:400px;
         height:550px;
-        margin-right:250px;
+        /* margin-right:250px; */
     }
     #normal hr{
         border: 40px, solid, black;

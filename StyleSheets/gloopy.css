@@ -1,6 +1,6 @@
 body{
     background-color: #8a6f9b;
-    background-image: url(../Pictures/sparkleimproved3.png);
+    background-image: url(../Pictures/statics/green.png);
     background-attachment:scroll, fixed;
     background-repeat: repeat, no-repeat;
     height:fit-content;
@@ -22,7 +22,7 @@ h1{
 }
 
 #title a:hover{
-  color: #4a695e
+  color: #0055ff
 }
 
 .links{
@@ -39,13 +39,13 @@ h1{
 }
 
 .links a:hover{
-  color:rgb(24, 142, 100);
+  color:rgb(25, 66, 190);
 }
 
 hr{
     filter:sepia(190%);
     filter:invert(20%);
-    filter:contrast(50%);
+    filter:contrast(30%);
     filter:hue-rotate(180deg)
 }
 
@@ -62,12 +62,12 @@ h1.backing{
 
   #guy{
     filter: contrast(50%);
-    transform: rotate(220deg);
+    transform: rotate(270deg);
     z-index: 9999;
     position: fixed;
-    filter: drop-shadow(16px 16px 20px rgb(0, 204, 255)) invert(20%);
-    margin-left:85%;
-      margin-top:10%;
+    filter: drop-shadow(16px 16px 20px rgb(0, 255, 106)) invert(20%);
+    margin-left:5%;
+    margin-top:10%;
   }
 
   #names{
@@ -89,8 +89,6 @@ h1.backing{
     float:left;
     position: sticky;
     /*backdrop-filter: contrast(100%), blur(50px);*/
-    
-    
   }
 
   #tour ul{
@@ -131,12 +129,13 @@ h1.backing{
   }
 
   #display{
-    background-color:rgb(197, 138, 194);
+    background-color:rgb(78, 158, 79);
     margin:auto;
     height:400px;
+    color:rgb(83, 83, 188);
     font-family:something, monospace;
-    color:green;
   }
+
   #bogart{
     background-color:rgb(197, 138, 194);
     margin:auto;
@@ -165,7 +164,7 @@ h1.backing{
   #fasten{
       background-color:rgb(181, 160, 70);
       font-family:husky, monospace;
-      margin:auto;
+      margin:auto;  
       float:right;
   }
 
@@ -201,14 +200,7 @@ h1.backing{
   text-transform:capitalize;
   z-index: 2;
 }
-#links a{
-color:#070d0b;
-  background-color: rgba(169, 169, 169, 0.4);
-}
 
-#links a:hover{
-color:rgb(24, 142, 100);
-}
 
 
 /* #gliblert{
@@ -231,13 +223,16 @@ color:rgb(24, 142, 100);
   font-family: monospace;
   font-weight: bolder;
 } */
-/* #danger{
-  background-color:rgb(124, 22, 22);
-  width:800px;
-  height:1000px;
-  margin: auto;
-  font-family:help, monospace;
-} */
+    /* #danger{
+    background-color:rgb(124, 22, 22);
+    width:800px;
+    height:1000px;
+    margin: auto;
+    font-family:help, monospace;
+    } */
+
+
+
 
 /*Meet the team page below*/
 

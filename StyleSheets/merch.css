@@ -61,7 +61,7 @@ body{
     overflow: hidden;
 }
 .wrapper{
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     display: flex;
     width:70%;
     margin:auto;
