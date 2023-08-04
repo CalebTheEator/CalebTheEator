@@ -6,13 +6,13 @@
     align-items:normal;
     margin: auto;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 52px;
     max-width: none;
     text-align: center;
     text-decoration: none;
     color:black;
-    font-family: help, sans-serif;
-    font-size: 16px;
+    font-family: something, sans-serif;
+    font-size: 18px;
     
 }
 body{
@@ -21,7 +21,7 @@ body{
 .item a{
     width:100%;
     height:283.3px;
-    border:2px green solid;
+    /* border:2px green solid; */
     display: block;
     flex: 4 3 calc(33.3333% - 4.75rem);
     padding: 0px 0.375rem;
@@ -39,7 +39,7 @@ body{
     display: block;
     max-width: 100%;
     margin:auto;
-    border:2px green solid;
+    /* border:2px green solid; */
     max-width: fit-content;
     overflow: hidden;
 }
@@ -65,7 +65,7 @@ body{
     display: flex;
     width:70%;
     margin:auto;
-    border:2px green solid;
+    /* border:2px green solid; */
 }
 
 .picture:hover{
@@ -79,5 +79,50 @@ body{
     display: flex;
     width:70%;
     margin:auto;
-    border:2px green solid;
+    /* border:2px green solid; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*button style is the main thing i need to edit and make look good*/
+
+#the-buttons{
+    flex: 1 1;
+    display:none;
+}
+
+.category-button{
+    margin:5px;
+    font-size: 30px;
+    flex: 1 1;
+    font-family:something, monospace;
+}
+
+#secret-category-button{
+    display: none;
+    margin:5px;
+    font-size: 30px;
+    flex: 1 1;
+    
+}
+
+#page1,#page2,#page3,#page4,#page5,#secretmerch{
+    display:none;
+}
+
+.the-items{
+    display: flex;
+    flex-wrap: wrap;
 }

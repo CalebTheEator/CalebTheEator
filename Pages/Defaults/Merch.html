@@ -9,6 +9,7 @@
         <link rel = "stylesheet" type="text/css" href= "../../StyleSheets/1440.css"/>
         <link rel = "stylesheet" type="text/css" href= "../../StyleSheets/390.css"/>
         <link rel = "stylesheet" type="text/css" href= "../../StyleSheets/merch.css"/>
+        <script src = "../../js/merch.js"></script>
         <style>
             #texts{
                 clear:right;
@@ -46,9 +47,260 @@
                     </form>
                     <br/>
                 </div>
-                
-                <div class = "wrapper" style = "display: none;" id = "merchen">
-                    <div class = "hats">
+
+                <div class = "wrapper" id = "the-buttons">
+                        <button class = "category-button" onclick = "page1()">Explore</button>
+                        <button class = "category-button" onclick = "page2()">Hats</button>
+                        <button class = "category-button" onclick = "page3()">Apparel</button>
+                        <button class = "category-button" onclick = "page4()">Necessities</button>
+                        <button class = "category-button" onclick = "page5()">Accessories</button>
+                        <button  id = "secret-category-button" onclick = "secretpage()">Secret Merch</button>
+                </div>
+
+                <div class = "wrapper" id = "page1">
+                    <h1 style = "text-align: center;">Explore</h1>
+                    <hr/>
+                    <div class = "the-items">
+                        <!--Tote Bag-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/caleb-the-eator-tote-bag?product=933" class = "item">
+                            <div id = "tote-full-item" class = item>
+                                <div id = "tote-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/tote.jpg" id = "tote" alt = "caleb the eator tote"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Caleb The Eator Tote Bag</h2>
+                                <div class = "price">$26.36</div>
+                            </div>
+                        </a>
+
+                        <!--Vintage 2006-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/caleb-the-eator-vintage-2006-h?product=227" class = "item">
+                            <div id = "vintage-full-item" class = item>
+                                <div id = "vintage-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/vintage.jpg" id = "vintage" alt = "vintage hoodie"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Vintage 2006 Hoodie</h2>
+                                <div class = "price">$33.49</div>
+                            </div>
+                        </a>
+
+                        <!--1804 hoodie-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/caleb-limited-edition-1804-hoo?product=212" class = "item">
+                            <div id = "1804-full-item" class = item>
+                                <div id = "1804-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/1804.jpg" id = "1804hoodie" alt = "1804 hoodie"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Caleb Limited Edition 1804 Hoodie :)</h2>
+                                <div class = "price">$33.32</div>
+                            </div>
+                        </a>
+
+                        <!--All over print hoodie-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/caleb-the-eator-all-over-sweat?product=2180" class = "item">
+                            <div id = "alloversweat-full-item" class = item>
+                                <div id = "alloversweat-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/alloversweat.jpg" id = "alloversweat" alt = "all over print hoodie"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Caleb The Eator All Over Hoodie</h2>
+                                <div class = "price">$48.99</div>
+                            </div>
+                        </a>
+
+                        <!--Female Website Tee-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/new-caleb-the-eator-website-te?product=370" class = "item">
+                            <div id = "womwebtee-full-item" class = item>
+                                <div id = "womwebtee-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/womwebtee.jpg" id = "womwebtee" alt = "Womans Website Tee"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Caleb The Eator Website Tee</h2>
+                                <div class = "price">$25.99</div>
+                            </div>
+                        </a>
+
+                        <!--Website Tee Unisex-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/caleb-the-eator-website-tee?product=369" class = "item">
+                            <div id = "uniwebtee-full-item" class = item>
+                                <div id = "uniwebtee-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/uniwebtee.jpg" id = "uniwebtee" alt = "unisex website tee"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Caleb The Eator Website Tee</h2>
+                                <div class = "price">$21.32</div>
+                            </div>
+                        </a>
+
+                        <!--Magcharge Phone Case-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/caleb-the-eator-magcase?product=2124" class = "item">
+                            <div id = "magcase-full-item" class = item>
+                                <div id = "magcase-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/magcase.jpg" id = "magcase" alt = "magcase"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Caleb The Eaator Magcase</h2>
+                                <div class = "price">$23.75</div>
+                            </div>
+                        </a>
+
+                        <!--Pillow-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/caleb-the-eator-pillow?product=585" class = "item">
+                            <div id = "pillow-full-item" class = item>
+                                <div id = "pillow-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/pillow.jpg" id = "pillow" alt = "pillow"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Caleb The Eator Pillow</h2>
+                                <div class = "price">$19.50</div>
+                            </div>
+                        </a>
+
+                        <!--Socks-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/caleb-the-eator-socks?product=2048" class = "item">
+                            <div id = "socks-full-item" class = item>
+                                <div id = "socks-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/socks.jpg" id = "socks" alt = "socks"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Caleb The Eator Socks</h2>
+                                <div class = "price">$12.99</div>
+                            </div>
+                        </a>
+
+                        <!--PaddleBall Set-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/caleb-the-eator-paddle-ball-se?product=2208" class = "item">
+                            <div id = "paddle-full-item" class = item>
+                                <div id = "paddle-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/paddleball.jpg" id = "paddleball" alt = "paddle ball set"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Caleb The Eator Paddle Ball Set</h2>
+                                <div class = "price">$53.53</div>
+                            </div>
+                        </a>
+
+                        <!--Black Slides-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/new-caleb-the-eator-slides?product=1896" class = "item">
+                            <div id = "black-slides-full-item" class = item>
+                                <div id = "black-slides-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/blackslides.jpg" id = "blackslides" alt = "black slides"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Caleb The Eator Slides</h2>
+                                <div class = "price">$35.99</div>
+                            </div>
+                        </a>
+
+                        <!--White Slides-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/caleb-the-eator-slides?product=1895" class = "item">
+                            <div id = "white-slides-full-item" class = item>
+                                <div id = "white-slides-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/whiteslides.jpg" id = "whiteslides" alt = "white slides"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Caleb The Eator Slides</h2>
+                                <div class = "price">$35.99</div>
+                            </div>
+                        </a>
+
+                        <!--Bogart Crisp Pint Glass-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/bogart-crisp-tracklist-pintgla" class = "item">
+                            <div id = "pint-glass-full-item" class = item>
+                                <div id = "pint-glass-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/pintglass.jpg" id = "pintglass" alt = "pint glass"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Bogart Crisp Tracklist Pintglass</h2>
+                                <div class = "price">$15.15</div>
+                            </div>
+                        </a>
+
+                        <!--Bogart Crisp Bucket Hat-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/caleb-the-eator-bucket-hat" class = "item">
+                            <div id = "bucket-hat-full-item" class = item>
+                                <div id = "bucket-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/bucket.png" id = "bucket" alt = "Bucket Hat Front"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Bogart Crisp Bucket Hat</h2>
+                                <div class = "price">$35.99</div>
+                            </div>
+                        </a>
+
+                        <!--Calebs Second Sticker-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/caleb-the-eator-logo-sticker" class = "item">
+                            <div id = "sticker2-full-item" class = item>
+                                <div id = "sticker2-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/sticker2.jpg" id = "sticker" alt = "Sticker"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Caleb Sticker</h2>
+                                <div class = "price">$4.88</div>
+                            </div>
+                        </a>
+
+                        <!--Danger Hoodie-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/danger-tracklist-hoodie" class = "item">
+                            <div id = "danger-hoodie-full-item" class = item>
+                                <div id = "danger-hoodie-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/danger_hoodie_back.jpeg" id = "dangerhoodie" alt = "Danger Hoodie"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Danger Tracklist Hoodie</h2>
+                                <div class = "price">$30.88</div>
+                            </div>
+                        </a>
+
+                        <!--DANGER HAT-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/new-danger-hat" class = "item">
+                            <div id = "danger-hat-full-item" class = item>
+                                <div id = "danger-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/danger.jpeg" id = "dangerse" alt = "danger"  class = picture height = 198px/>
+                                </div>
+                                <h2 class = "title">Danger Hat</h2>
+                                <div class = "price">$22.82</div>
+                            </div>
+                        </a>
+
+                        <!--GLEEBLE HAT-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/gleeble-baseball-cap" class = "item">
+                            <div id = "gleeble-hat-full-item" class = item>
+                                <div id = "gleeble-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/gleeble.jpeg" id = "gleeble" alt = "Gleeble Hat Front"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">gleeble hat</h2>
+                                <div class = "price">$25.60</div>
+                            </div>
+                        </a>
+
+                        <!--FASTEN HAT-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/fasten-beanie" class = "item">
+                            <div id = "beanie-full-item" class = item>
+                                <div id = "beanie-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/beanie.jpeg" id = "beanie" alt = "Beanie"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Fasten Lap Belt Beanie!</h2>
+                                <div class = "price">$22.86</div>
+                            </div>
+                        </a>
+
+                        <!--Calebs First Sticker-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/caleb-sticker" class = "item">
+                            <div id = "sticker-full-item" class = item>
+                                <div id = "sticker-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/caleb_sticker.jpeg" id = "sticker" alt = "Sticker"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Caleb Sticker</h2>
+                                <div class = "price">$4.88</div>
+                            </div>
+                        </a>
+
+                        <!--PENTAGON HAT-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/caleb-the-eator-hat" class = "item">
+                            <div id = "pentagon-hat-full-item" class = item>
+                                <div id = "pentagon-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/pentagon_hat_front.jpeg" id = "pentagonpic" alt = "Pentagon Hat Front"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Pentagon Hat</h2>
+                                <div class = "price">$24.90</div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                </div>
+                <!--END OF PAGE 1 BEGINNING OF PAGE 2-->
+
+                <div class = "wrapper" id = "page2">
+                    <h1 style = "text-align: center;">Hats!</h1>
+                    <hr/>
+                    <div class = "the-items">
                         <a href = "https://calebtheeator.creator-spring.com/listing/caleb-the-eator-bucket-hat" class = "item">
                             <div id = "bucket-hat-full-item" class = item>
                                 <div id = "bucket-picture" class = pictures>
@@ -100,98 +352,268 @@
                         </a>
                         
                     </div>
-                    
-                    <a href = "https://calebtheeator.creator-spring.com/listing/danger-tracklist-hoodie" class = "item">
-                        <div id = "danger-hoodie-full-item" class = item>
-                            <div id = "danger-hoodie-picture" class = pictures>
-                                <img src = "../../Pictures/merch/danger_hoodie_back.jpeg" id = "dangerhoodie" alt = "Danger Hoodie"  class = picture height = 198px;/>
-                            </div>
-                            <h2 class = "title">Danger Tracklist Hoodie</h2>
-                            <div class = "price">$30.88</div>
-                        </div>
-                    </a>
-
-                    <a href = "https://calebtheeator.creator-spring.com/listing/bogart-crisp-tracklist-pintgla" class = "item">
-                        <div id = "pint-glass-full-item" class = item>
-                            <div id = "pint-glass-picture" class = pictures>
-                                <img src = "../../Pictures/merch/pintglass.jpg" id = "pintglass" alt = "pint glass"  class = picture height = 198px;/>
-                            </div>
-                            <h2 class = "title">Bogart Crisp Tracklist Pintglass</h2>
-                            <div class = "price">$15.15</div>
-                        </div>
-                    </a>
-
-                    <a href = "https://calebtheeator.creator-spring.com/listing/caleb-sticker" class = "item">
-                        <div id = "sticker-full-item" class = item>
-                            <div id = "sticker-picture" class = pictures>
-                                <img src = "../../Pictures/merch/caleb_sticker.jpeg" id = "sticker" alt = "Sticker"  class = picture height = 198px;/>
-                            </div>
-                            <h2 class = "title">Caleb Sticker</h2>
-                            <div class = "price">$4.88</div>
-                        </div>
-                    </a>
-
-                    <a href = "https://calebtheeator.creator-spring.com/listing/caleb-the-eator-logo-sticker" class = "item">
-                        <div id = "sticker2-full-item" class = item>
-                            <div id = "sticker2-picture" class = pictures>
-                                <img src = "../../Pictures/merch/sticker2.jpg" id = "sticker" alt = "Sticker"  class = picture height = 198px;/>
-                            </div>
-                            <h2 class = "title">Caleb Sticker</h2>
-                            <div class = "price">$4.88</div>
-                        </div>
-                    </a>
-    
-                    
+                    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
                 </div>
-                <br/><br/><br/><br/>
 
+                <!--END OF PAGE 2 BEGINNING OF PAGE 3-->
 
-                <!--THESE ARE THE HIDDEN MERCHANDISE-->
-                <div class = "wrapper" style = "display: none;" id = "sec">
-                    <a href = "https://calebtheeator.creator-spring.com/listing/caleb-the-eator-shower-curtain" class = "item">
-                        <div id = "danger-shower-full-item" class = item>
-                            <div id = "danger-shower-picture" class = pictures>
-                                <img src = "../../Pictures/merch/shower.jpeg" id = "shower" alt = "Shower"  class = picture height = 198px;/>
+                <div class = "wrapper" id = "page3">
+                    <h1 style = "text-align: center;">Apparel</h1>
+                    <hr/>
+                    <div class = "the-items">
+
+                        <!--All over print hoodie-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/caleb-the-eator-all-over-sweat?product=2180" class = "item">
+                            <div id = "alloversweat-full-item" class = item>
+                                <div id = "alloversweat-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/alloversweat.jpg" id = "alloversweat" alt = "all over print hoodie"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Caleb The Eator All Over Hoodie</h2>
+                                <div class = "price">$48.99</div>
                             </div>
-                            <h2 class = "title">Shower Curtain</h2>
-                            <div class = "price">$39.67</div>
-                        </div>
-                    </a>
-                    
-                    <a href = "https://calebtheeator.creator-spring.com/listing/caleb-the-eator-chopping-it-u" class = "item">
-                        <div id = "danger-apron-full-item" class = item>
-                            <div id = "danger-apron-picture" class = pictures>
-                                <img src = "../../Pictures/merch/apron.jpeg" id = "apron" alt = "Apron"  class = picture height = 198px;/>
+                        </a>
+
+                        <!--Danger Hoodie-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/danger-tracklist-hoodie" class = "item">
+                            <div id = "danger-hoodie-full-item" class = item>
+                                <div id = "danger-hoodie-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/danger_hoodie_back.jpeg" id = "dangerhoodie" alt = "Danger Hoodie"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Danger Tracklist Hoodie</h2>
+                                <div class = "price">$30.88</div>
                             </div>
-                            <h2 class = "title">Caleb Apron</h2>
-                            <div class = "price">$21.50</div>
-                        </div>
-                    </a>
+                        </a>
+
+                        <!--Female Website Tee-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/new-caleb-the-eator-website-te?product=370" class = "item">
+                            <div id = "womwebtee-full-item" class = item>
+                                <div id = "womwebtee-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/womwebtee.jpg" id = "womwebtee" alt = "Womans Website Tee"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Caleb The Eator Website Tee</h2>
+                                <div class = "price">$25.99</div>
+                            </div>
+                        </a>
+
+                        <!--Website Tee Unisex-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/caleb-the-eator-website-tee?product=369" class = "item">
+                            <div id = "uniwebtee-full-item" class = item>
+                                <div id = "uniwebtee-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/uniwebtee.jpg" id = "uniwebtee" alt = "unisex website tee"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Caleb The Eator Website Tee</h2>
+                                <div class = "price">$21.32</div>
+                            </div>
+                        </a>
+
+                        <!--Vintage 2006-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/caleb-the-eator-vintage-2006-h?product=227" class = "item">
+                            <div id = "vintage-full-item" class = item>
+                                <div id = "vintage-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/vintage.jpg" id = "vintage" alt = "vintage hoodie"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Vintage 2006 Hoodie</h2>
+                                <div class = "price">$33.49</div>
+                            </div>
+                        </a>
+
+                        <!--1804 hoodie-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/caleb-limited-edition-1804-hoo?product=212" class = "item">
+                            <div id = "1804-full-item" class = item>
+                                <div id = "1804-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/1804.jpg" id = "1804hoodie" alt = "1804 hoodie"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Caleb Limited Edition 1804 Hoodie :)</h2>
+                                <div class = "price">$33.32</div>
+                            </div>
+                        </a>
+
+                    </div>
+                    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
                 </div>
+                
+                 <!--END OF PAGE 3 BEGINNING OF PAGE 4-->
+
+                 <div class = "wrapper" id = "page4">
+
+                    <h1 style = "text-align: center;">Necessities</h1>
+                    <hr/>
+
+                    <div class = "the-items">
+                        <!--Pillow-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/caleb-the-eator-pillow?product=585" class = "item">
+                            <div id = "pillow-full-item" class = item>
+                                <div id = "pillow-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/pillow.jpg" id = "pillow" alt = "pillow"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Caleb The Eator Pillow</h2>
+                                <div class = "price">$19.50</div>
+                            </div>
+                        </a>
+
+                        <!--Calebs Second Sticker-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/caleb-the-eator-logo-sticker" class = "item">
+                            <div id = "sticker2-full-item" class = item>
+                                <div id = "sticker2-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/sticker2.jpg" id = "sticker" alt = "Sticker"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Caleb Sticker</h2>
+                                <div class = "price">$4.88</div>
+                            </div>
+                        </a>
+
+                        <!--Calebs First Sticker-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/caleb-sticker" class = "item">
+                            <div id = "sticker-full-item" class = item>
+                                <div id = "sticker-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/caleb_sticker.jpeg" id = "sticker" alt = "Sticker"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Caleb Sticker</h2>
+                                <div class = "price">$4.88</div>
+                            </div>
+                        </a>
+
+                        <!--Bogart Crisp Pint Glass-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/bogart-crisp-tracklist-pintgla" class = "item">
+                            <div id = "pint-glass-full-item" class = item>
+                                <div id = "pint-glass-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/pintglass.jpg" id = "pintglass" alt = "pint glass"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Bogart Crisp Tracklist Pintglass</h2>
+                                <div class = "price">$15.15</div>
+                            </div>
+                        </a>
+                    </div>
+                    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                 </div>
+
+                 <!--END OF PAGE 4 BEGINNING OF PAGE 5-->
+
+                <div class = "wrapper" id = "page5">
+                    <h1 style = "text-align: center;">Accessories</h1>
+                    <hr/>
+
+                    <div class = "the-items">
+
+                        <!--Socks-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/caleb-the-eator-socks?product=2048" class = "item">
+                            <div id = "socks-full-item" class = item>
+                                <div id = "socks-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/socks.jpg" id = "socks" alt = "socks"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Caleb The Eator Socks</h2>
+                                <div class = "price">$12.99</div>
+                            </div>
+                        </a>
+
+                        <!--Tote Bag-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/caleb-the-eator-tote-bag?product=933" class = "item">
+                            <div id = "tote-full-item" class = item>
+                                <div id = "tote-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/tote.jpg" id = "tote" alt = "caleb the eator tote"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Caleb The Eator Tote Bag</h2>
+                                <div class = "price">$26.36</div>
+                            </div>
+                        </a>
+
+                        <!--Magcharge Phone Case-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/caleb-the-eator-magcase?product=2124" class = "item">
+                            <div id = "magcase-full-item" class = item>
+                                <div id = "magcase-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/magcase.jpg" id = "magcase" alt = "magcase"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Caleb The Eaator Magcase</h2>
+                                <div class = "price">$23.75</div>
+                            </div>
+                        </a>
+
+                        <!--PaddleBall Set-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/caleb-the-eator-paddle-ball-se?product=2208" class = "item">
+                            <div id = "paddle-full-item" class = item>
+                                <div id = "paddle-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/paddleball.jpg" id = "paddleball" alt = "paddle ball set"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Caleb The Eator Paddle Ball Set</h2>
+                                <div class = "price">$53.53</div>
+                            </div>
+                        </a>
+
+                        <!--Black Slides-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/new-caleb-the-eator-slides?product=1896" class = "item">
+                            <div id = "black-slides-full-item" class = item>
+                                <div id = "black-slides-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/blackslides.jpg" id = "blackslides" alt = "black slides"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Caleb The Eator Slides</h2>
+                                <div class = "price">$35.99</div>
+                            </div>
+                        </a>
+
+                        <!--White Slides-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/caleb-the-eator-slides?product=1895" class = "item">
+                            <div id = "white-slides-full-item" class = item>
+                                <div id = "white-slides-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/whiteslides.jpg" id = "whiteslides" alt = "white slides"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Caleb The Eator Slides</h2>
+                                <div class = "price">$35.99</div>
+                            </div>
+                        </a>
+
+                    </div>
+                    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                </div>
+
+                 <!--END OF PAGE 5 BEGINNING OF PAGE secret-->
+
+                 <div class = "wrapper" id = "secretmerch">
+                    <h1 style = "text-align: center; text-decoration: underline;">SECRET MERCH</h1>
+                    <hr/>
+
+                    <div class = "the-items">
+                        <!--Shower Curtain-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/caleb-the-eator-shower-curtain" class = "item">
+                            <div id = "danger-shower-full-item" class = item>
+                                <div id = "danger-shower-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/shower.jpeg" id = "shower" alt = "Shower"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Shower Curtain</h2>
+                                <div class = "price">$39.67</div>
+                            </div>
+                        </a>
+                        
+                        <!--Tote Bag-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/the-faces-of-caleb-tote-bag" class = "item">
+                            <div id = "facestote-full-item" class = item>
+                                <div id = "facestote-shower-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/facestote.jpg" id = "FacesToteBag" alt = "Tote Bag"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">The Faces Of Caleb The Eator</h2>
+                                <div class = "price">$25.49</div>
+                            </div>
+                        </a>
+
+                        <!--Apron-->
+                        <a href = "https://calebtheeator.creator-spring.com/listing/caleb-the-eator-chopping-it-u" class = "item">
+                            <div id = "danger-apron-full-item" class = item>
+                                <div id = "danger-apron-picture" class = pictures>
+                                    <img src = "../../Pictures/merch/apron.jpeg" id = "apron" alt = "Apron"  class = picture height = 198px;/>
+                                </div>
+                                <h2 class = "title">Caleb Apron</h2>
+                                <div class = "price">$21.50</div>
+                            </div>
+                        </a>
+                    </div>
+                    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                 </div>
+
+                 <!--END OF SECRET MERCH AREA-->
+
             </div>
         </div>
     </body>
-    <script>
-
-var secrets = document.getElementById("credit")
-        function merch(e, textarea){
-            var code = (e.keyCode ? e.keyCode : e.which);
-            if(code == 13) { //Enter keycode
-                document.getElementById("form").style.display="none";
-                document.getElementById("merchen").style.display="flex";
-                
-                secret()
-            }
-        }
-
-        function secret(){
-            let guh = secrets.value
-            console.log(guh);
-            if (guh === "secret merch"){
-                document.getElementById("form").style.display="none";
-                document.getElementById("sec").style.display="flex";
-            }
-        }
-
-    </script>
 </html>
+
+
+
