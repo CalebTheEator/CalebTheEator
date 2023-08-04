@@ -240,8 +240,8 @@ h1.backing{
   margin:auto;
   width:90%;
   height:400px;
-  border: 1px solid #e861e1;
-  background-color: rgba(179, 52, 179, 0.502);
+  border: 1px solid #00eeff;
+  background-color: rgba(54, 100, 219, 0.502);
   border-radius: 150px;
 }
 .peoples img{
