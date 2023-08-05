@@ -11,7 +11,7 @@
     text-align: center;
     text-decoration: none;
     color:black;
-    font-family: something, sans-serif;
+    font-family: jingle, sans-serif;
     font-size: 18px;
     
 }
@@ -107,7 +107,7 @@ body{
     margin:5px;
     font-size: 30px;
     flex: 1 1;
-    font-family:something, monospace;
+    font-family:jingle, monospace;
 }
 
 #secret-category-button{

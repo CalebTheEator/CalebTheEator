@@ -7,7 +7,7 @@ body{
 }
 
 h1{
-    font-family: blueOcean, sans-serif;
+    font-family: furniture, sans-serif;
 }
 
 #title{
@@ -26,7 +26,7 @@ h1{
 }
 
 .links{
-    font-family: something, sans-serif;
+    font-family: junior, sans-serif;
     color:#070d0b;
     text-align: center;
     text-transform:capitalize;
@@ -67,11 +67,11 @@ h1.backing{
     position: fixed;
     filter: drop-shadow(16px 16px 20px rgb(0, 255, 106)) invert(20%);
     margin-left:5%;
-    margin-top:10%;
+    top:70%;
   }
 
   #names{
-    font-family: valentine, monospace;
+    font-family: jingle, monospace;
   }
 
   .tours{
@@ -93,7 +93,7 @@ h1.backing{
 
   #tour ul{
     list-style: number;
-    font-family: valentine, monospace;
+    font-family: jingle, monospace;
     font-size: larger;
   }
 
@@ -133,7 +133,7 @@ h1.backing{
     margin:auto;
     height:400px;
     color:rgb(83, 83, 188);
-    font-family:something, monospace;
+    font-family:junior, monospace;
   }
 
   #bogart{
@@ -194,7 +194,7 @@ h1.backing{
 }
 
 #links{
-  font-family: something, sans-serif;
+  font-family: junior, sans-serif;
   color:#070d0b;
   text-align: center;
   text-transform:capitalize;
@@ -274,7 +274,7 @@ h1.backing{
 #new{
   background-color:rgba(171, 154, 173, 0.541);
   margin:auto;
-  font-family:something, monospace;
+  font-family:junior, monospace;
 }
 
 

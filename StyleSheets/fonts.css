@@ -41,6 +41,8 @@
     src: url(../Fonts/newera/White_Milk.otf);
 }
 
+
+/*Bogart Fonts*/
 @font-face {
     font-family: blueOcean;
     src: url(../Fonts/newera/BLUE_OCEAN.ttf);
@@ -54,6 +56,23 @@
 @font-face {
     font-family: Valentine;
     src: url(../Fonts/newera/Valentine_Cute.ttf);
+}
+
+
+/*Gloopy Era*/
+@font-face {
+    font-family: jingle;
+    src: url(../Fonts/Gloopy/Jingle\ Star.ttf);
+}
+
+@font-face {
+    font-family: junior;
+    src: url(../Fonts/Gloopy/Juniory.ttf);
+}
+
+@font-face {
+    font-family: furniture;
+    src: url(../Fonts/Gloopy/Super\ Funtime.ttf);
 }
 
 
