@@ -136,6 +136,14 @@ h1.backing{
     font-family:junior, monospace;
   }
 
+  #gloopy{
+    background-color:rgb(139, 197, 138);
+    margin:auto;
+    font-family:junior, monospace;
+    color:green;
+    font-size:30px;
+  }
+
   #bogart{
     background-color:rgb(197, 138, 194);
     margin:auto;
@@ -169,7 +177,15 @@ h1.backing{
   }
 
 
+  .albums img{
+    display:block;
+    margin:auto;
+    width:350px;  
+  }
 
+  .albums h3{
+    padding-top:15px;
+  }
 
   /*this code is for the about me page*/
 
